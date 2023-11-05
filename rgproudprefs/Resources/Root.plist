@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Thank you for using RGProud! hope you enjoy :) </string>
+		</dict>
+
+ 		<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.b4db1r3.rgproudprefs</string>
+            <key>key</key>              <string>tweakEnabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>PostNotification</key> <string>com.b4db1r3.rgproudprefs/settingschanged</string>
+        </dict>
+				<dict>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSStaticTextCell</string>
+	<key>label</key>
+	<string>Theme (choose only one)</string>
+</dict>
+		<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.b4db1r3.rgproudprefs</string>
+            <key>key</key>              <string>brightTheme</string>
+            <key>label</key>            <string>Bright</string>
+            <key>PostNotification</key> <string>com.b4db1r3.rgproudprefs/settingschanged</string>
+        </dict>
+
+
+		<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.b4db1r3.rgproudprefs</string>
+            <key>key</key>              <string>mediumTheme</string>
+            <key>label</key>            <string>Medium</string>
+            <key>PostNotification</key> <string>com.b4db1r3.rgproudprefs/settingschanged</string>
+        </dict>
+
+
+
+		<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.b4db1r3.rgproudprefs</string>
+            <key>key</key>              <string>darkTheme</string>
+            <key>label</key>            <string>Dark</string>
+            <key>PostNotification</key> <string>com.b4db1r3.rgproudprefs/settingschanged</string>
+        </dict>
+		<dict>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSStaticTextCell</string>
+	<key>label</key>
+	<string>Position</string>
+</dict>
+
+<dict>
+          <key>cell</key>                   <string>PSEditTextCell</string>
+          <key>label</key>                  <string>X Position:</string>
+		  <key>default</key>          <true/>
+          <key>prompt</key>                 <string>Input</string>
+          <key>bestGuess </key>             <string>0</string>
+          <key>placeholder</key>            <string>0</string>
+          <key>isNumeric</key>              <true/>
+          <key>PostNotification</key>       <string>com.b4db1r3.rgproudprefs/settingschanged</string>
+          <key>defaults</key>               <string>com.b4db1r3.rgproudprefs</string>
+          <key>key</key>                    <string>xposition</string>
+        </dict>
+		        <dict>
+          <key>cell</key>                   <string>PSEditTextCell</string>
+          <key>label</key>                  <string>Y Position:</string>
+          <key>prompt</key>                 <string>Input</string>
+          <key>bestGuess </key>             <string>0</string>
+          <key>isNumeric</key>              <true/>
+          <key>placeholder</key>            <string>0</string>
+          <key>PostNotification</key>       <string>com.b4db1r3.rgproudprefs/settingschanged</string>
+          <key>defaults</key>               <string>com.b4db1r3.rgproudprefs</string>
+          <key>key</key>                    <string>yposition</string>
+        </dict>
+		<dict>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>label</key>
+		<string>Open On Github</string>
+		<key>action</key>
+		<string>OpenGithub</string>
+		</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>label</key>
+		<string>My SoundCloud (Dubstep)</string>
+		<key>action</key>
+		<string>OpenSC</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>RGProud</string>
+</dict>
+</plist>
+
+

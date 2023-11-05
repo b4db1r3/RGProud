@@ -1,0 +1,10 @@
+Package: com.b4db1r3.rgproud
+Name: RGProud
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Red for unautenticated, green for autenticated
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.rgproud
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.rgproud/depiction.json
+Maintainer: b4db1r3
+Author: b4db1r3
+Section: Tweaks (LockScreen)
