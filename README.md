@@ -16,6 +16,8 @@ RGProud is a tweak designed for those who appreciate both security and aesthetic
 - **Price**: FREE
 - **Developer**: b4db1r3
 
+NEEDS TO: CHANGE 'backtowhereiwas' references, but its not effecting anything. 
+
 ## Changelog
 
 ### 0.0.2 (02/02/2023)
